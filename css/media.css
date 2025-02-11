@@ -64,6 +64,14 @@
     align-items: start;
   }
 
+  .hero-img {
+    margin-bottom: 48px;
+  }
+
+  .hero-contant {
+    max-width: 728px;
+  }
+
   .check__list {
     background-image: none;
     display: flex;
@@ -84,10 +92,16 @@
   .check__item {
     max-width: 320px;
     background-color: var(--color-one);
-    padding: 176px 40px 66px 40px;
     background-position: top;
     background-repeat: no-repeat;
     box-shadow: none;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .check__item-descr {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .check__item--right {
@@ -122,24 +136,19 @@
     background-color: var(--color--check);
   }
 
-  .check__item--right {
-    background-image: url(../img/navigation.jpg);
+  .check__img {
+    display: block;
+    margin-bottom: 16px;
   }
 
-  .check__item--left {
-    background-image: url(../img/ranking.jpg);
-  }
-
-  .check__item--center {
-    background-image: url(../img/content.jpg);
-  }
-
-  .check__item--back {
-    background-image: url(../img/marketing.jpg);
+  .check__img img {
+    border-radius: 20px 20px 0 0;
   }
 
   .check__subtitle {
     font-size: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .footer__wrapper {
